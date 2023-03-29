@@ -1,0 +1,35 @@
+.topnav {
+    position: fixed;
+    width: 100%;
+    background-color:rgba(18, 15, 15, 0.742);
+  text-align: center;
+  }
+  .topnav ul{
+    display:flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-left:10%;
+    margin-right: 10%;
+  }
+  .topnav ul li{
+  color: white;
+   padding: 15px;
+  
+  }
+  
+  .topnav ul li a{
+    margin: 10px;
+    color: rgba(255, 255, 255, 0.55);
+    text-decoration: none;
+  }
+  .topnav ul li a:hover{
+    color: white;
+  }
+  .topnav .icon {
+    display: none;
+  }
+  .topnav .icon:hover{
+    border: 3px solid;
+  }
+  
