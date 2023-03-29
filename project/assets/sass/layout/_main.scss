@@ -31,7 +31,9 @@
     font-weight: 700;
     letter-spacing: 0.1rem;
   }
-  
+  section{
+    margin-top: 30px;
+  }
   section#cart1 {
     display: flex;
     flex-direction:row-reverse;
@@ -54,8 +56,7 @@
     margin: 15% 20%;
     display: flex;
     flex-direction: column;  
-    align-items: center;
-    justify-content: center;
+   
   }
   .hisse h2 {
     font-size: calc(1.475rem + 2.7vw);
@@ -69,14 +70,11 @@
     color: #212529;
   }
   .foto {
-   background-color: #04aa6d;
    width: 80%; 
-   display: flex;
-   justify-content: center;
-     
    
   }
-  .foto img {
+
+  .foto img, .foto-left img {
     border-radius: 50%;
     max-width: 70%;
     height: auto;
@@ -84,3 +82,10 @@
     /* margin-top: 8%; */
   }
   
+
+  .foto-left{
+    width: 80%; 
+    display: flex;
+    justify-content: center;
+  } 
+
